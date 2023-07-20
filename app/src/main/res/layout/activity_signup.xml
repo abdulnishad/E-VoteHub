@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#EFE9E9"
+    android:background="#CFCFCE"
     android:padding="30dp"
     tools:context=".signup">
 
@@ -53,12 +53,14 @@
                 android:layout_height="60dp"/>
             <EditText
                 android:drawableStart="@drawable/ic_keyboard"
+                android:drawableEnd=""
                 android:layout_marginTop="5dp"
                 android:hint="Enter password"
                 android:fontFamily="sans-serif-black"
                 android:inputType="textPassword"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"/>
+
 
 
 
