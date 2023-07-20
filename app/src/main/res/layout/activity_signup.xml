@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EFE9E9"
+    android:padding="30dp"
+    tools:context=".signup">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:fontFamily="sans-serif-black"
+            android:text="Sign Up"
+            android:textColor="@color/black"
+            android:textSize="50sp" />
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="80dp"
+            android:orientation="vertical">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:drawableStart="@drawable/ic_person"
+
+                android:fontFamily="sans-serif-black"
+                android:hint="Enter full name" />
+            <EditText
+                android:drawableStart="@drawable/ic_list"
+                android:layout_marginTop="5dp"
+                android:hint="Enter the email"
+                android:fontFamily="sans-serif-black"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"/>
+            <EditText
+                android:drawableStart="@drawable/ic_person"
+                android:hint="Enter the user name"
+                android:layout_marginTop="5dp"
+                android:fontFamily="sans-serif-black"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"/>
+            <EditText
+                android:drawableStart="@drawable/ic_keyboard"
+                android:layout_marginTop="5dp"
+                android:hint="Enter password"
+                android:fontFamily="sans-serif-black"
+                android:inputType="textPassword"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"/>
+
+
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@color/black"
+                android:text="SIGN UP"
+                android:id="@+id/signup"
+                android:layout_marginBottom="350dp"
+                android:textSize="18dp"
+                android:textColor="@color/white"
+                tools:ignore="InvalidId" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>
