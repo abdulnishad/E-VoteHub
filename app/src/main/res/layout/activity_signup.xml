@@ -53,7 +53,7 @@
                 android:layout_height="60dp"/>
             <EditText
                 android:drawableStart="@drawable/ic_keyboard"
-                android:drawableEnd=""
+
                 android:layout_marginTop="5dp"
                 android:hint="Enter password"
                 android:fontFamily="sans-serif-black"
