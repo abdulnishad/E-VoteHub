@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#CFCFCE"
+
     android:padding="30dp"
     tools:context=".login">
     <LinearLayout
@@ -31,6 +31,7 @@
 
 
             <EditText
+                android:id="@+id/userid"
                 android:drawableStart="@drawable/ic_person"
                 android:hint="Enter the user name"
                 android:layout_marginTop="5dp"
@@ -39,7 +40,7 @@
                 android:layout_height="60dp"/>
             <EditText
                 android:drawableStart="@drawable/ic_keyboard"
-
+                android:id="@+id/userpassword"
                 android:layout_marginTop="5dp"
                 android:hint="Enter password"
                 android:fontFamily="sans-serif-black"
@@ -57,11 +58,24 @@
                 android:layout_marginTop="20dp"
                 android:background="@color/black"
                 android:text="LOGIN"
-                android:id="@+id/signup"
-                android:layout_marginBottom="350dp"
+                android:id="@+id/btnloginuser"
+
                 android:textSize="18dp"
                 android:textColor="@color/white"
-                tools:ignore="InvalidId" />
+               />
+
+            <TextView
+                android:id="@+id/txtdidntcreateaccount"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:layout_marginTop="5dp"
+                android:clickable="true"
+                android:gravity="center"
+                android:text="Didn't create an account? Click here"
+                android:textColor="#1EDFC9"
+                android:textSize="15dp"
+
+                />
 
 
         </LinearLayout>

@@ -6,13 +6,13 @@
     android:layout_height="match_parent"
     android:background="@color/white"
     android:padding="30dp"
+    tools:context=".startpage"
     >
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
-
 
         <ImageView
             android:layout_width="match_parent"
@@ -57,7 +57,7 @@
                 android:layout_marginRight="10dp"
                 android:layout_weight="1"
                 android:background="#CCCACA"
-                android:onClick="calllogin"
+                android:onClick="callLogin"
                 android:text="Login"
                 android:textColor="@color/black"
                 />
@@ -73,7 +73,7 @@
                 android:background="#CCCACA"
                 android:text="Sign Up"
                 android:textColor="@color/black"
-                android:onClick="callsignup"/>
+                android:onClick="callSignup"/>
 
 
 
@@ -86,7 +86,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="20dp"
             android:background="#CCCACA"
-            android:onClick="callloginasadmin"
+            android:onClick="callLoginAsAdmin"
             android:text="Login As Admin"
             android:textColor="@color/black" />
 

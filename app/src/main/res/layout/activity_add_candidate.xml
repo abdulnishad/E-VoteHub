@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    tools:context=".Add_candidate">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical">
+
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif-black"
+            android:text="Add candidate"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="36sp" />
+
+        <EditText
+            android:id="@+id/editTextFullName"
+
+            android:drawableStart="@drawable/ic_person"
+            android:hint="Enter Full Name"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif-black"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"/>
+
+
+
+
+        <EditText
+            android:id="@+id/addcanditatevoteid"
+            android:drawableStart="@drawable/ic_list"
+            android:hint=" Vote id"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif-black"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"/>
+        <Button
+            android:id="@+id/btnpositionrevile"
+            android:layout_gravity="center"
+            android:text="position"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/addcanditatevoteposition"
+            android:drawableStart="@drawable/ic_list"
+            android:hint=" Position"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif-black"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@color/black"
+            android:text="Save"
+android:id="@+id/btnaddcandidatesave"
+            android:layout_marginBottom="350dp"
+            android:textSize="18dp"
+            android:textColor="@color/white"
+            />
+
+
+    </LinearLayout>
+
+</ScrollView>

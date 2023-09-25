@@ -4,21 +4,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-
+    tools:context=".login_admin"
     android:padding="30dp"
-    tools:context=".signup">
-
+    >
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
         <TextView
+
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="60dp"
             android:fontFamily="sans-serif-black"
-            android:text="Sign Up"
+            android:text="Login as Admin"
             android:textColor="@color/black"
             android:textSize="50sp" />
 
@@ -30,44 +30,18 @@
             android:layout_marginTop="80dp"
             android:orientation="vertical">
 
-            <EditText
-                android:id="@+id/txtname"
-                android:layout_width="match_parent"
-                android:layout_height="60dp"
-                android:drawableStart="@drawable/ic_person"
 
-                android:fontFamily="sans-serif-black"
-                android:hint="Enter full name" />
             <EditText
-                android:id="@+id/txtemail"
-                android:drawableStart="@drawable/ic_list"
+                android:id="@+id/adminIdEditText"
+                android:drawableStart="@drawable/ic_person"
+                android:hint="Enter the admin id"
                 android:layout_marginTop="5dp"
-                android:hint="Enter the email"
                 android:fontFamily="sans-serif-black"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"/>
-
-
-
-
-
-
-
-
-
             <EditText
-                android:id="@+id/txtusername"
-                android:layout_width="match_parent"
-                android:layout_height="60dp"
-                android:layout_marginTop="15dp"
-                android:drawableStart="@drawable/ic_person"
-                android:fontFamily="sans-serif-black"
-                android:hint="Enter the user name" />
-
-            <EditText
-                android:id="@+id/txtpassword"
                 android:drawableStart="@drawable/ic_keyboard"
-
+                android:id="@+id/adminPasswordEditText"
                 android:layout_marginTop="5dp"
                 android:hint="Enter password"
                 android:fontFamily="sans-serif-black"
@@ -84,12 +58,12 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 android:background="@color/black"
-                android:text="SIGN UP"
-                android:id="@+id/signup"
+                android:text="LOGIN"
+                android:id="@+id/btnloginadmin"
                 android:layout_marginBottom="350dp"
                 android:textSize="18dp"
                 android:textColor="@color/white"
-                tools:ignore="InvalidId" />
+                 />
 
 
         </LinearLayout>

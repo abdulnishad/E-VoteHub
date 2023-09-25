@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    tools:context=".Create_Vote">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Create Vote"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:textSize="36sp" />
+
+        <EditText
+            android:drawableStart="@drawable/ic_list"
+            android:id="@+id/txtposition"
+            android:hint=" Enter the position"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif-black"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"/>
+        <Button
+            android:id="@+id/btnselectusers"
+            android:layout_gravity="center"
+            android:text="Select users"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/btnsavecreatevote"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@color/black"
+            android:text="Save"
+
+            android:layout_marginBottom="350dp"
+            android:textSize="18dp"
+            android:textColor="@color/white"
+            />
+
+
+    </LinearLayout>
+</ScrollView>
